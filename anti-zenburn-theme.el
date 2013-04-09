@@ -724,7 +724,7 @@
 
    ;; workgroups
    `(wg-brace-face ((t (:foreground ,azenburn-fg-1))))
-   `(wg-other-workgroup-face ((t (:foreground ,azenburn-fg-1))))
+   `(wg-other-workgroup-face ((t (:foreground ,azenburn-fg))))
    `(wg-command-face ((t (:foreground ,azenburn-beige))))
    `(wg-current-workgroup-face ((t (:foreground ,azenburn-blue+1))))
    `(wg-divider-face ((t (:foreground ,azenburn-fg-1))))
