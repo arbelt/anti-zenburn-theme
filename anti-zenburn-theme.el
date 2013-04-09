@@ -530,6 +530,7 @@
    `(org-agenda-structure
      ((t (:inherit font-lock-comment-face))))
    `(org-archived ((t (:foreground ,azenburn-fg :weight bold))))
+   `(org-block-background ((t (:background ,azenburn-bg-1))))
    `(org-checkbox ((t (:background ,azenburn-bg+2 :foreground "black"
                                    :box (:line-width 1 :style released-button)))))
    `(org-date ((t (:foreground ,azenburn-beige :underline t))))
@@ -720,6 +721,19 @@
 
    ;; which-func-mode
    `(which-func ((t (:foreground ,azenburn-violet+4))))
+
+   ;; workgroups
+   `(wg-brace-face ((t (:foreground ,azenburn-fg-1))))
+   `(wg-other-workgroup-face ((t (:foreground ,azenburn-fg-1))))
+   `(wg-command-face ((t (:foreground ,azenburn-beige))))
+   `(wg-current-workgroup-face ((t (:foreground ,azenburn-blue+1))))
+   `(wg-divider-face ((t (:foreground ,azenburn-fg-1))))
+   `(wg-filename-face ((t (:foreground ,azenburn-light-blue))))
+   `(wg-frame-face ((t (:foreground ,azenburn-beige))))
+   `(wg-message-face ((t (:foreground ,azenburn-green))))
+   `(wg-mode-line-face ((t (:foreground ,azenburn-light-blue))))
+   `(wg-previous-workgroup-face ((t (:foreground ,azenburn-violet))))
+
 
    ;; yascroll
    `(yascroll:thumb-text-area ((t (:background ,azenburn-bg-1))))
